@@ -1,0 +1,192 @@
+﻿++Solution 'Memo' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:Memo.sln
+++Memo
+i:{00000000-0000-0000-0000-000000000000}:Memo
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.vs\memo\
+++Properties
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\properties\
+++References
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:
+++.git
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\
+++.vs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.vs\
+++GameLogic
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\gamelogic\
+++ComputerPlayer.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\gamelogic\computerplayer.cs
+++eCellState.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\gamelogic\ecellstate.cs
+++GameBoard.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\gamelogic\gameboard.cs
+++MemoryGameUI
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\memorygameui\
+++ButtonBoardSize.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\memorygameui\buttonboardsize.cs
+++GameManager.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\memorygameui\gamemanager.cs
+++MemoryGame.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\memorygameui\memorygame.cs
+++MemoryGameButton.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\memorygameui\memorygamebutton.cs
+++MemoryGameSettings.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\memorygameui\memorygamesettings.cs
+++Program.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\memorygameui\program.cs
+++Animation.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\animation.cs
+++Animator.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\animator.cs
+++CoolButton.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\coolbutton.cs
+++CustomStyles.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\customstyles.cs
+++Drawer.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\drawer.cs
+++FlatColors.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\flatcolors.cs
+++HeaderComponent.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\headercomponent.cs
+++MemoryGame.PNG
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\memorygame.png
+++README.md
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\readme.md
+++Resources.resx
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\properties\resources.resx
+++System
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:
+++System.Core
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:
+++System.Data
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:
+++System.Data.DataSetExtensions
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:
+++System.Drawing
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:
+++System.Windows.Forms
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:
+++System.Xml
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:
+++System.Xml.Linq
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:
+++hooks
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\hooks\
+++info
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\info\
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\objects\info\
+++logs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\logs\
+++objects
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\objects\
+++refs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\refs\
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\logs\refs\
+++config
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\config
+++description
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\description
+++HEAD
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\head
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\logs\head
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\refs\remotes\origin\head
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\logs\refs\remotes\origin\head
+++index
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\index
+++packed-refs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\packed-refs
+++Memory2
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.vs\memory2\
+++slnx.sqlite
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.vs\slnx.sqlite
+++tasks.vs.json
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.vs\tasks.vs.json
+++VSWorkspaceState.json
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.vs\vsworkspacestate.json
+++MemoryGame.Designer.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\memorygameui\memorygame.designer.cs
+++MemoryGame.resx
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\memorygameui\memorygame.resx
+++MemoryGameSettings.resx
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\memorygameui\memorygamesettings.resx
+++CoolButton.Designer.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\coolbutton.designer.cs
+++HeaderComponent.Designer.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\headercomponent.designer.cs
+++Resources.Designer.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\properties\resources.designer.cs
+++applypatch-msg.sample
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\hooks\applypatch-msg.sample
+++commit-msg.sample
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\hooks\commit-msg.sample
+++fsmonitor-watchman.sample
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\hooks\fsmonitor-watchman.sample
+++post-update.sample
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\hooks\post-update.sample
+++pre-applypatch.sample
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\hooks\pre-applypatch.sample
+++pre-commit.sample
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\hooks\pre-commit.sample
+++pre-merge-commit.sample
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\hooks\pre-merge-commit.sample
+++pre-push.sample
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\hooks\pre-push.sample
+++pre-rebase.sample
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\hooks\pre-rebase.sample
+++pre-receive.sample
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\hooks\pre-receive.sample
+++prepare-commit-msg.sample
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\hooks\prepare-commit-msg.sample
+++push-to-checkout.sample
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\hooks\push-to-checkout.sample
+++update.sample
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\hooks\update.sample
+++exclude
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\info\exclude
+++pack
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\objects\pack\
+++heads
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\refs\heads\
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\logs\refs\heads\
+++remotes
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\refs\remotes\
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\logs\refs\remotes\
+++tags
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\refs\tags\
+++v17
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.vs\memo\v17\
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.vs\memory2\v17\
+++pack-9eff5450d1fb8f39d40c6f19ee708740bc85e1a9.idx
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\objects\pack\pack-9eff5450d1fb8f39d40c6f19ee708740bc85e1a9.idx
+++pack-9eff5450d1fb8f39d40c6f19ee708740bc85e1a9.pack
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\objects\pack\pack-9eff5450d1fb8f39d40c6f19ee708740bc85e1a9.pack
+++master
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\refs\heads\master
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\logs\refs\heads\master
+++origin
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\refs\remotes\origin\
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.git\logs\refs\remotes\origin\
+++.suo
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\.vs\memory2\v17\.suo
+++bin
+++Debug
+++Release
+++Closed.png
+++EgoldsGoogleTextBox.cs
+++obj
+++x86
+++TempPE
+++.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs
+++DesignTimeResolveAssemblyReferences.cache
+++DesignTimeResolveAssemblyReferencesInput.cache
+++Memo.csproj.AssemblyReference.cache
+++Memo.csproj.CoreCompileInputs.cache
+++Memo.csproj.FileListAbsolute.txt
+++Memo.csproj.GenerateResource.cache
+++Memo.Properties.Resources.resources
+++MemoryGameUI.MemoryGame.resources
+++MemoryGameUI.MemoryGameSettings.resources
+++Properties.Resources.Designer.cs.dll
+++Tuz.ico
+++Tuz.png
+++yt_Button.cs
+i:{bc9e2ec8-afbd-45e7-b626-1d7a2c2b2a14}:d:\c# projects\memory2\yt_button.cs

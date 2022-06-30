@@ -1,9 +1,10 @@
 ﻿using System.Windows.Forms;
 using System.Drawing;
+using Memo;
 
 namespace MemoryGameUI
 {
-    public class ButtonBoardSize : Button
+    public class ButtonBoardSize : yt_Button
     {
         private static readonly int sr_NumberOfSizes = 8;
         private readonly string[] r_BoardSizes = new string[sr_NumberOfSizes];

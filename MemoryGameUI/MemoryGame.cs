@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 using MemoryGameLogic;
+using Memo;
 
 namespace MemoryGameUI
 {
@@ -33,17 +34,19 @@ namespace MemoryGameUI
             r_IsPvP = i_PvP;
             r_ComputerPlayer = r_IsPvP ? new ComputerPlayer(Rows, Cols) : null; 
             r_Player1NameLength = i_FirstName.Length;
-            Player1Name.Text = string.Format(i_FirstName + ": 0 Pair(s)");
+            Player1Name.Text = string.Format(i_FirstName + ": 0 Пара(ы)");
             r_Player2NameLength = i_SecondName.Length;
-            Player2Name.Text = Player2Name.Text = string.Format(i_SecondName + ": 0 Pair(s)");
+            Player2Name.Text = Player2Name.Text = string.Format(i_SecondName + ": 0 Пара(ы)");
             SetCurrentPlayerName();
             initializeTiles();
             Size = new Size(new Point(TileButtonMatrix[Rows - 1, Cols - 1].Right + 50, TileButtonMatrix[Rows - 1, Cols - 1].Bottom + 170));
             Controls.Remove(TileButton);
+            Animator.Start();
         }
 
         private void initializeTiles()
         {
+
             const int k_LeftSpacing = 20;
             const int k_TopSpacing = 20;
             m_TileButtonMatrix = new MemoryGameButton[Rows, Cols];
@@ -265,22 +268,22 @@ namespace MemoryGameUI
                 {
                     winnerName = Player1Name.Text.Substring(0, Player1NameLength);
                     loserName = Player2Name.Text.Substring(0, Player2NameLength);
-                    endGameMsg = string.Format("congratulations {0} you won the game with {1} pairs! {2}{3} with {4} pairs, Don't worry, maybe next time", winnerName, ScorePlayer1, Environment.NewLine, loserName, ScorePlayer2);
+                    endGameMsg = string.Format("Поздравляю! {0} ты выиграл в этой игре открыв {1} пар! {2}{3} с {4} парами, не расстраивайся, сможешь победить в следующий раз!", winnerName, ScorePlayer1, Environment.NewLine, loserName, ScorePlayer2);
                 }
                 else if (ScorePlayer2 > ScorePlayer1)
                 {
                     winnerName = Player2Name.Text.Substring(0, Player2NameLength);
                     loserName = Player1Name.Text.Substring(0, Player1NameLength);
-                    endGameMsg = string.Format("Congratulations!! {0} you won the game with {1} pairs! {2}{3} with {4} pairs, Don't worry, maybe next time", winnerName, ScorePlayer2, Environment.NewLine, loserName, ScorePlayer1);
+                    endGameMsg = string.Format("Поздравляю! {0} ты выиграл в этой игре открыв {1} пар! {2}{3} с {4} pairs, парами, не расстраивайся, сможешь победить в следующий раз!", winnerName, ScorePlayer2, Environment.NewLine, loserName, ScorePlayer1);
                 }
                 else
                 {
-                    endGameMsg = string.Format("Its a tie!! {0}both of you got {1} pairs!", Environment.NewLine, ScorePlayer1);
+                    endGameMsg = string.Format("Ого, ничья!! {0} оба из вас открыли {1} пар!", Environment.NewLine, ScorePlayer1);
                 }
 
-                endGameMsg = string.Format("{0}{1}Do you want to start another game?", endGameMsg, Environment.NewLine);
+                endGameMsg = string.Format("{0}{1}Хотите сыграть еще одну игру?", endGameMsg, Environment.NewLine);
 
-                DialogResult result = MessageBox.Show(endGameMsg, "Memory Game", button);
+                DialogResult result = MessageBox.Show(endGameMsg, "Игра на соответствия", button);
 
                 if (result == DialogResult.Yes) 
                 {
@@ -350,12 +353,12 @@ namespace MemoryGameUI
         {
             if (Turn == false)
             {
-                CurrentPlayer.Text = "Current Player: " + Player1Name.Text.Substring(0, Player1NameLength);
+                CurrentPlayer.Text = "Текущий игрок: " + Player1Name.Text.Substring(0, Player1NameLength);
                 CurrentPlayer.BackColor = Player1Name.BackColor;
             }
             else
             {
-                CurrentPlayer.Text = "Current Player: " + Player2Name.Text.Substring(0, Player2NameLength);
+                CurrentPlayer.Text = "Текущий игрок: " + Player2Name.Text.Substring(0, Player2NameLength);
                 CurrentPlayer.BackColor = Player2Name.BackColor;
             }
         }
@@ -380,11 +383,11 @@ namespace MemoryGameUI
             {
                 if (ScorePlayer1 == 1) 
                 {
-                    updatedLabel = string.Format(Player1Name.Text.Substring(0, Player1NameLength) + ": {0} Pair(s)", ScorePlayer1);
+                    updatedLabel = string.Format(Player1Name.Text.Substring(0, Player1NameLength) + ": {0} Пара(ы)", ScorePlayer1);
                 }
                 else
                 {
-                    updatedLabel = string.Format(Player1Name.Text.Substring(0, Player1NameLength) + ": {0} Pairs", ScorePlayer1);
+                    updatedLabel = string.Format(Player1Name.Text.Substring(0, Player1NameLength) + ": {0} Пара(ы)", ScorePlayer1);
                 }
 
                 Player1Name.Text = updatedLabel;
@@ -393,11 +396,11 @@ namespace MemoryGameUI
             {
                 if (ScorePlayer2 == 1)
                 {
-                    updatedLabel = string.Format(Player2Name.Text.Substring(0, Player2NameLength) + ": {0} Pair(s)", ScorePlayer2);
+                    updatedLabel = string.Format(Player2Name.Text.Substring(0, Player2NameLength) + ": {0} Пара(ы)", ScorePlayer2);
                 }
                 else
                 {
-                    updatedLabel = string.Format(Player2Name.Text.Substring(0, Player2NameLength) + ": {0} Pairs", ScorePlayer2);
+                    updatedLabel = string.Format(Player2Name.Text.Substring(0, Player2NameLength) + ": {0} Пара(ы)", ScorePlayer2);
                 }
 
                 Player2Name.Text = updatedLabel;
@@ -574,6 +577,13 @@ namespace MemoryGameUI
             {
                 m_ScorePlayer2 = value;
             }
+        }
+
+        private void yt_Button1_Click(object sender, EventArgs e)
+        {
+            Rules rules = new Rules();
+            rules.Show();
+            
         }
     }
 }

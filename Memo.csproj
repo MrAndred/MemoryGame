@@ -1,0 +1,161 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{BC9E2EC8-AFBD-45E7-B626-1D7A2C2B2A14}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Memo</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MemoryGame.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\push-to-checkout.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\objects\pack\pack-9eff5450d1fb8f39d40c6f19ee708740bc85e1a9.idx" />
+    <None Include=".git\objects\pack\pack-9eff5450d1fb8f39d40c6f19ee708740bc85e1a9.pack" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".vs\Memory2\v17\.suo" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\tasks.vs.json" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animation.cs" />
+    <Compile Include="Animator.cs" />
+    <Compile Include="CFStyles.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CFStyles.Designer.cs">
+      <DependentUpon>CFStyles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomInput.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Drawer.cs" />
+    <Compile Include="EgoldsCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgoldStyle.cs" />
+    <Compile Include="FlatColors.cs" />
+    <Compile Include="GameLogic\ComputerPlayer.cs" />
+    <Compile Include="GameLogic\eCellState.cs" />
+    <Compile Include="GameLogic\GameBoard.cs" />
+    <Compile Include="MemoryGameUI\ButtonBoardSize.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MemoryGameUI\GameManager.cs" />
+    <Compile Include="MemoryGameUI\MemoryGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemoryGameUI\MemoryGame.Designer.cs">
+      <DependentUpon>MemoryGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemoryGameUI\MemoryGameButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MemoryGameUI\MemoryGameSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemoryGameUI\Program.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Rules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rules.Designer.cs">
+      <DependentUpon>Rules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToggleSwitch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="yt_button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\Memo\v17\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MemoryGameUI\MemoryGame.resx">
+      <DependentUpon>MemoryGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemoryGameUI\MemoryGameSettings.resx">
+      <DependentUpon>MemoryGameSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rules.resx">
+      <DependentUpon>Rules.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
